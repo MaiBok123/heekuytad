@@ -7,8 +7,7 @@ if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
 number_of_classes = 5
-dataset_size = 1000
-interval = 10  # เวลาที่ต้องการในการเก็บภาพ (วินาที)
+dataset_size = 1000
 
 cap = cv2.VideoCapture(0)
 for j in range(number_of_classes):
